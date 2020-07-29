@@ -1,0 +1,40 @@
+<html>
+<body>
+ <table border= "2">
+  <thead>
+   <tr>
+    <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
+   </tr>
+  </thead>
+  <tfoot>
+    <tr>
+     <td colspan="3">합계</td> <td>1500</td>
+    </tr>
+   </tfoot>
+  <tbody>
+    <tr>
+     <td>하승우</td> <td>남</td> <td rowspan= "2">대전</td> <th>1000</th>
+    </tr>
+    <tr>
+     <td>김성남</td> <td>남</td>  <td>1500</td>
+    </tr>
+   </tbody>
+
+</body>
+</html>
+
+
+
+
+
+
+
+td= table data 의 약자 즉 표 각각의 실제 데이터
+tr태그는 그사이에 있는  td행을 같은 행으로 표시
+td와 tr 태그를 table태그로 전체 감싸줌. 태그 table border= "1" 은 테두리를침
+thead는 테이블의 머리
+tbody는 본문
+tfoot는 테이블의 마지막
+th는 각 셀의 글자를 굵게 표시
+rowspan= "2"이 태그가 포함된 세로가 병합됨. 그 아래 행 대전 태그 는 지움.
+colspan ="3"는 3개의 가로축 셀이 합병됨.
